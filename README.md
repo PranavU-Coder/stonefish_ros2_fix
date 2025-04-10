@@ -73,6 +73,13 @@ if you still get some sort of error it is most probably non-fatal and it doesn't
 
 just check at the end if it says that packages have been built successfully or not
 
+alternatively if you don't wish to see these annoying messages
+
+```bash
+colcon build --cmake-args -Wno-dev  
+```
+
+
 ## if it shows pkgs been completed then the build has been successful
 
 now launch the file to check if it works
