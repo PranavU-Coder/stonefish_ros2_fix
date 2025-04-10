@@ -4,16 +4,20 @@ Tutorial on how to make stonefish (uuv simulator) compatible with ros2 software 
 
 pre-requisites:
 
-(1) OS: Ubuntu 24.04 LTS
-(2) ROS2: Jazzy Jalisco 
-(3) GPU: OpenGL 4.3+ support (verify with glxinfo | grep "OpenGL version") 
+- (1) OS: Ubuntu 24.04 LTS
+- (2) ROS2: Jazzy Jalisco 
+- (3) GPU: OpenGL 4.3+ support (verify with glxinfo | grep "OpenGL version") 
 
 install the following dependencies if you haven't already
 
 ```bash
 sudo apt install -y \  
-  libglm-dev libsdl2-dev libfreetype6-dev \  
-  libbullet-dev build-essential  
+  libglm-dev \  
+  libsdl2-dev \  
+  libfreetype6-dev \  
+  libbullet-dev \  
+  build-essential
+ 
 ```
 
 for main installation :
