@@ -92,4 +92,4 @@ ros2 launch stonefish_ros2 stonefish_simulator.launch.py
 ros2 launch stonefish_ros2 stonefish_simulator_nogpu.launch.py
 ```
 
-
+star this tutorial if it helped solve problem of installing and building the stonefish-uuv simulator
