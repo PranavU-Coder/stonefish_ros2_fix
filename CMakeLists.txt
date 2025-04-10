@@ -1,4 +1,4 @@
-# important lines
+# please add these warning suppression lines at the very top of the file
 
 if(POLICY CMP0144)
   cmake_policy(SET CMP0144 NEW) 
