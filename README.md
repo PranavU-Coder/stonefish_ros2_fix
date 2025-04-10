@@ -69,7 +69,11 @@ please refer to the file I uploaded in this very repo which contains the lines t
 colcon build --cmake-args -DCMAKE_PREFIX_PATH=~/auv_ws/install/stonefish  
 ```
 
-## if it shows no errors and pkgs been completed then the build has been successful
+if you still get some sort of error it is most probably non-fatal and it doesn't affect functionality.
+
+just check at the end if it says that packages have been built successfully or not
+
+## if it shows pkgs been completed then the build has been successful
 
 now launch the file to check if it works
 
