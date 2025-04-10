@@ -24,7 +24,7 @@ for main installation :
 replace name "auv_ws" with anyname you want to , just an example snippet
 
 ```bash
-mkdir -p ~/auv-ws/src  
+mkdir -p ~/auv_ws/src  
 cd ~/auv_ws/src  
 git clone https://github.com/patrykcieslak/stonefish.git  
 cd stonefish  
